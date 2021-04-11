@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import 'fontsource-roboto'
   
   //*-Styled Components
   export const Ballot = styled.section `
@@ -26,5 +27,29 @@ export const CandidateBox = styled.div `
         margin: 0.6rem 0rem;
         padding: 0rem 0rem;
         width:100%;
+    }
+`
+
+export const ResultBox = styled.div `
+    display: flex;
+    /* align-items:center; */
+    text-align:center;
+    justify-content:space-around;
+    padding: 4rem 0rem;
+    margin: 4rem 0rem;
+    @media (max-width: 735px) {
+        margin: 4rem 0rem;
+        padding: 0rem 0rem;
+
+    }
+`
+
+export const ResultText = styled.div `
+    display: flex;
+    font-size: 2.1rem;
+    font-weight:bold;
+    font-family:  Roboto, sans-serif;
+    @media (max-width: 735px) {
+      align-content:center;
     }
 `

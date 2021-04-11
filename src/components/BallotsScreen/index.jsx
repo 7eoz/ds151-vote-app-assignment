@@ -3,8 +3,8 @@ import { Button, Typography } from '@material-ui/core';
 import Candidate from '../Candidate'
 import Result from '../Result';
 import CandidateData from '../../data/CandidateData'
-import {Ballot, BallotBox, CandidateBox} from '../../assets/CandidateStyledComponents'
-import 'fontsource-roboto'
+import { Ballot, BallotBox } from '../../assets/CandidateStyledComponents'
+
 
 
 function BallotsScreen({ candidatesInput, submitVotes }) {

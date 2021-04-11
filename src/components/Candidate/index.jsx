@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Button, Typography } from '@material-ui/core';
-import {CandidateBox} from '../../assets/CandidateStyledComponents'
+import { CandidateBox } from '../../assets/CandidateStyledComponents'
 
 function Candidate({name, votesInput, voteCallback}) {
     const [votes, setVotes] = useState(votesInput);
