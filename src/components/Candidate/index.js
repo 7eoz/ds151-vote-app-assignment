@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Typography } from '@material-ui/core';
 import { CandidateBox } from '../../assets/CandidateStyledComponents';
-import bonossauroImage from '../../assets/img/bonossauro.jpg';
 
 function Candidate({ avatar, name, votesInput, voteCallback }) {
 	const [votes, setVotes] = useState(votesInput);
