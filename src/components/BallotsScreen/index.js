@@ -28,7 +28,7 @@ function BallotsScreen() {
 			<Ballot>
 				<Typography variant='h1' component='h1' align='center' fullwidth='true'>
 					{' '}
-					Ballot Screen
+					Ballot System
 				</Typography>
 				<BallotBox>
 					{candidates.map((candidate) => {
@@ -45,8 +45,8 @@ function BallotsScreen() {
 				</BallotBox>
 				<Button
 					variant='contained'
+					style={{ width: '50%', margin: '0 25%' }}
 					color='primary'
-					fullwidth='true'
 					onClick={Finishing}>
 					Finish voting
 				</Button>
