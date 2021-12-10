@@ -28,7 +28,7 @@ function BallotsScreen() {
 			<Ballot>
 				<Typography variant='h1' component='h1' align='center' fullwidth='true'>
 					{' '}
-					Ballot System
+					Ballot Screen
 				</Typography>
 				<BallotBox>
 					{candidates.map((candidate) => {
